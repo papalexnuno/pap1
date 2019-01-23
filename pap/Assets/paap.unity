@@ -8253,7 +8253,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1157940412}
   - component: {fileID: 1157940411}
-  - component: {fileID: 1157940413}
   m_Layer: 0
   m_Name: graund2.1 (1)_21
   m_TagString: Untagged
@@ -8323,24 +8322,6 @@ Transform:
   m_Father: {fileID: 970002084}
   m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &1157940413
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157940410}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -4.993058, y: 1.9965284}
-  - {x: 1.0098839, y: -0.5930283}
 --- !u!1 &1162541032
 GameObject:
   m_ObjectHideFlags: 0
