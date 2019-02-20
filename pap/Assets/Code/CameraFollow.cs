@@ -16,6 +16,7 @@ public class CameraFollow : MonoBehaviour {
     public Vector3 minCameraPos;
     public Vector3 maxCameraPos;
 
+    //associa ao player através do nome da Tag
     void start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
