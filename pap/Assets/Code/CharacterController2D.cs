@@ -3,20 +3,32 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
-	[SerializeField] private float m_JumpForce = 400f;							//Quantidade de força utilizada quando o player salta
-	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;			//Velocidade máxima no crouch
-	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	//Quanto suaviza o movimento
-	[SerializeField] private bool m_AirControl = true;							//Controlar o Player no ar
-	[SerializeField] private LayerMask m_WhatIsGround;							//Determina o que e chao para o Player
-	[SerializeField] private Transform m_GroundCheck;							//Posiçao que marca onde ver se o Player esta a tocar no chao ou nao
-	[SerializeField] private Transform m_CeilingCheck;							//Posiçao que procura se existe algum teto
-	[SerializeField] private Collider2D m_CrouchDisableCollider;				//Desativa colisao quando em crouch
+    //Quantidade de força utilizada quando o player salta
+    [SerializeField] private float m_JumpForce = 400f;
+    //Velocidade máxima no crouch
+    [Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;
+    //Quanto suaviza o movimento
+    [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
+    //Controlar o Player no ar
+    [SerializeField] private bool m_AirControl = true;
+    //Determina o que e chao para o Player
+    [SerializeField] private LayerMask m_WhatIsGround;
+    //Posiçao que marca onde ver se o Player esta a tocar no chao ou nao
+    [SerializeField] private Transform m_GroundCheck;
+    //Posiçao que procura se existe algum teto
+    [SerializeField] private Transform m_CeilingCheck;
+    //Desativa colisao quando em crouch
+    [SerializeField] private Collider2D m_CrouchDisableCollider;
 
-	const float k_GroundedRadius = .2f; //Raio que determina se o Player esta a tocar no chao
-	private bool m_Grounded;            //Booleano se o Player esta ou nao a tocar no chao
-	const float k_CeilingRadius = .2f;  //Raio que determina se o Player se pode levantar
+    //Raio que determina se o Player esta a tocar no chao
+    const float k_GroundedRadius = .2f;
+    //Booleano se o Player esta ou nao a tocar no chao
+    private bool m_Grounded;
+    //Raio que determina se o Player se pode levantar
+    const float k_CeilingRadius = .2f;  
 	private Rigidbody2D m_Rigidbody2D;
-	private bool m_FacingRight = true;  //Ver para qual lado o Player esta virado
+    //Ver para qual lado o Player esta virado
+    private bool m_FacingRight = true; 
 	private Vector3 m_Velocity = Vector3.zero;
 
 	[Header("Events")]
@@ -79,7 +91,7 @@ public class CharacterController2D : MonoBehaviour
 		{
 
 			//Se em Crouch
-			if (crouch)
+			/*if (crouch)
 			{
 				if (!m_wasCrouching)
 				{
@@ -104,7 +116,7 @@ public class CharacterController2D : MonoBehaviour
 					m_wasCrouching = false;
 					OnCrouchEvent.Invoke(false);
 				}
-			}
+			}*/
 
 			// Move a personagem indentificando-o como alvo de velocidade
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
