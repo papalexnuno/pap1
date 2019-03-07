@@ -1,17 +1,11 @@
 fileFormatVersion: 2
-guid: e18c130289eb8ff418d1c30641d26ff3
+guid: 79f6db06c19d14f44b2089574511fffa
 TextureImporter:
   fileIDToRecycleName:
-    21300000: CallOfFlamingoColor
-    21300002: CallOfFlamingoWhite
-    21300004: StartWhite
-    21300006: LeaderboardWhite
-    21300008: SettingsWhite
-    21300010: ExitWhite
-    21300012: StartColor
-    21300014: LeaderboardColor
-    21300016: SettingsColor
-    21300018: ExitColor
+    21300000: spritesheet menu_0
+    21300002: spritesheet menu_1
+    21300004: spritesheet menu_2
+    21300006: spritesheet menu_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -94,73 +88,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CallOfFlamingoColor
+      name: spritesheet menu_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 668
-        width: 1372
-        height: 182
+        x: 37
+        y: 699
+        width: 1517
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8f9bbdf1eeb0e9438896760a8a04f79
+      spriteID: 4894cf91f8295d54486c68d3f5292631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CallOfFlamingoWhite
+      name: spritesheet menu_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 502
-        width: 1443
-        height: 161
+        x: 98
+        y: 561
+        width: 182
+        height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e01b6db2211af2049ad8079d9bc95fd4
+      spriteID: f0ce0c173d6b0124889966614ccf7cb8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StartWhite
+      name: spritesheet menu_2
       rect:
         serializedVersion: 2
-        x: 87
-        y: 127
-        width: 199
-        height: 57
+        x: 97
+        y: 442
+        width: 274
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d5fadfff5ee50b48b79c48d22ebf46c
+      spriteID: deada217e2462cc4a91e37ec1e9fcaa0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeaderboardWhite
+      name: spritesheet menu_3
       rect:
         serializedVersion: 2
-        x: 383
-        y: 118
-        width: 453
-        height: 69
+        x: 102
+        y: 304
+        width: 123
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,127 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b082144b173ddb418f0d6ccd9d64374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SettingsWhite
-      rect:
-        serializedVersion: 2
-        x: 934
-        y: 112
-        width: 289
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 593eef8bf9402a044ba32b4a03e2de73
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExitWhite
-      rect:
-        serializedVersion: 2
-        x: 1352
-        y: 116
-        width: 147
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfa4d03c40675264cb11d099ab21342b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StartColor
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 46
-        width: 166
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a6325677bd3fda4dae97255f1ab93e6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LeaderboardColor
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 47
-        width: 390
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c21e7e9bcf308144b9b519337bb91ec8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SettingsColor
-      rect:
-        serializedVersion: 2
-        x: 954
-        y: 44
-        width: 252
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 721b6cda334a1594c9b3af693c2cb12e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExitColor
-      rect:
-        serializedVersion: 2
-        x: 1360
-        y: 47
-        width: 124
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a84a8c86b3ebc5b4e9b45d54cf73bab7
+      spriteID: f7d7c4b10cb17bd4a807a6917adc9f72
       vertices: []
       indices: 
       edges: []
@@ -296,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 562bd684ef99abf4f976bf7986afacb8
+    spriteID: 9fc16d9f1b3f02045b6d8c753956151c
     vertices: []
     indices: 
     edges: []
