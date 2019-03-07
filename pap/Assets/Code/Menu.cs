@@ -12,6 +12,7 @@ public class Menu : MonoBehaviour{
 
     public void ExitApp()
     {
+        Debug.Log("Saiu");
         Application.Quit();
     }
 
