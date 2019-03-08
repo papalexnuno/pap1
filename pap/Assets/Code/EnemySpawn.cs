@@ -10,12 +10,6 @@ public class EnemySpawn : MonoBehaviour
     public float TempoSpawn = 2f;
     float ProxSpawn = 0.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

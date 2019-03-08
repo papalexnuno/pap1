@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     {
         //Faz o inimigo parar quando esta a determinada distancia do player
         if (Vector2.Distance(transform.position, target.position) >0.8 ){
+
             //Move o inimigo da sua posiçao para a posiçao do player a uma determinada velocidade
             transform.position = Vector2.MoveTowards(transform.position, target.position, velocidade * Time.deltaTime);
         }
