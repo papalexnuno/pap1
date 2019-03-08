@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97016401}
   - component: {fileID: 97016400}
+  - component: {fileID: 97016402}
   m_Layer: 0
   m_Name: Zombie2
   m_TagString: Untagged
@@ -191,6 +192,25 @@ Transform:
   m_Father: {fileID: 365594630}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &97016402
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97016399}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b0f916ae35697b4084881b19b423dd2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &365594626
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487071939}
   - component: {fileID: 487071938}
+  - component: {fileID: 487071940}
   m_Layer: 0
   m_Name: Flamingo
   m_TagString: Untagged
@@ -506,6 +527,25 @@ Transform:
   m_Father: {fileID: 365594630}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &487071940
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487071937}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ce14b0406b1674940bd06f76921f0e57, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &538123069
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +598,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 236.41579
+  orthographic size: 175.82413
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -582,7 +622,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538123069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 409, y: 230, z: -10}
+  m_LocalPosition: {x: 302, y: 170, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -598,6 +638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759172570}
   - component: {fileID: 759172569}
+  - component: {fileID: 759172571}
   m_Layer: 0
   m_Name: Zombie3
   m_TagString: Untagged
@@ -667,6 +708,25 @@ Transform:
   m_Father: {fileID: 365594630}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &759172571
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759172568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 68dfad471e606c245880a8282668c2e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1041106727
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041106729}
   - component: {fileID: 1041106728}
+  - component: {fileID: 1041106730}
   m_Layer: 0
   m_Name: Zombie4
   m_TagString: Untagged
@@ -746,6 +807,25 @@ Transform:
   m_Father: {fileID: 365594630}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1041106730
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041106727}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b8a1829ef043864aa6526181f9e481d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1043046792
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,6 +966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209082609}
   - component: {fileID: 1209082608}
+  - component: {fileID: 1209082610}
   m_Layer: 0
   m_Name: Zombie1
   m_TagString: Untagged
@@ -955,6 +1036,25 @@ Transform:
   m_Father: {fileID: 365594630}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1209082610
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209082607}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7adde82fb804b34798e511d83f4ad9f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1301381110
 GameObject:
   m_ObjectHideFlags: 0
