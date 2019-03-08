@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,9 +15,9 @@ public class WeaponShoot : MonoBehaviour
         {
             StartCoroutine(shoot());
         }
-    }
+    }*/
 
-    IEnumerator shoot()
+    /*IEnumerator shoot()
     {
         RaycastHit2D hitInfo = Physics2D.Raycast(FirePoint.position, FirePoint.right);
 
@@ -44,4 +44,4 @@ public class WeaponShoot : MonoBehaviour
 
         lineRenderer.enabled = false;
     }
-}
+}*/

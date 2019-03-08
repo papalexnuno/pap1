@@ -4,23 +4,21 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 100;
+    public float velocidade;
+    public float stoppingDistance;
+    private Transform target;
 
-    public GameObject deathEffect;
-
-    public void TakeDamage (int damage)
+    void Start()
     {
-        health -= damage;
-
-        if (health <= 0)
-        {
-            Die();
-        }
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
-    void Die()
+    void Update()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        //Faz o inimigo parar quando esta a determinada distancia do player
+        if (Vector2.Distance(transform.position, target.position) >0.8 ){
+            //Move o inimigo da sua posiçao para a posiçao do player a uma determinada velocidade
+            transform.position = Vector2.MoveTowards(transform.position, target.position, velocidade * Time.deltaTime);
+        }
     }
 }
