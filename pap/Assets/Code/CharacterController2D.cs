@@ -32,14 +32,7 @@ public class CharacterController2D : MonoBehaviour
     //Cria evento para quando esta no chao 
 	public UnityEvent OnLandEvent;
 
-	[System.Serializable]
-	public class BoolEvent : UnityEvent<bool> { }
-
-    //Cria evento booleano para o crouch
-	public BoolEvent OnCrouchEvent;
-	private bool m_wasCrouching = false;
-
-    //Usa o componente rigidbody para o crouch
+    //Usa o componente rigidbody quando está no chao
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -66,7 +59,7 @@ public class CharacterController2D : MonoBehaviour
 		}
 	}
 
-	public void Move(float move, bool crouch, bool jump)
+	public void Move(float move, bool x, bool jump)
 	{
 
 		//So possibilita o controlo do player se ele tiver no chao ou com Air Control ativado
