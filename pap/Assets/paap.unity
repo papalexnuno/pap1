@@ -2759,7 +2759,6 @@ GameObject:
   - component: {fileID: 373575193}
   - component: {fileID: 373575192}
   - component: {fileID: 373575191}
-  - component: {fileID: 373575194}
   - component: {fileID: 373575195}
   m_Layer: 0
   m_Name: Main Camera
@@ -2832,18 +2831,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &373575194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373575190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee19b5fb89b57d7439ec3bbabb8057da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &373575195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16195,8 +16182,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073656869}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4, y: 1.13, z: 3}
-  m_LocalScale: {x: 1.1956539, y: 1.178056, z: 1}
+  m_LocalPosition: {x: -6.03, y: -0.31, z: 3}
+  m_LocalScale: {x: 0.92424047, y: 0.9106373, z: 0.773}
   m_Children: []
   m_Father: {fileID: 1576319583}
   m_RootOrder: 0
@@ -16797,7 +16784,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 0d955508bd4dad94d86c292b179e2fc7, type: 3}
+  m_Sprite: {fileID: 21300004, guid: 4b324176506b9b64f975b99617031d8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16855,16 +16842,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6da9962ad725140bb2d2de318c25bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 450
-  m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.05
+  ForcaSalto: 400
+  MoveSuave: 0.05
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
   m_GroundCheck: {fileID: 572465137}
   m_CeilingCheck: {fileID: 205879061}
-  m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
