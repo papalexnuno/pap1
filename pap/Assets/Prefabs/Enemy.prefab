@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8066099164936191250}
   - component: {fileID: 8066099164936191251}
   - component: {fileID: 8066099164936191248}
+  - component: {fileID: 6171972191915682140}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -160,3 +161,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade: 1
   stoppingDistance: 0.8
+--- !u!111 &6171972191915682140
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8066099164936191247}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

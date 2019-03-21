@@ -8,9 +8,7 @@ public class PauseMenu : MonoBehaviour
     public static bool EmPausa = false;
     public GameObject PauseMenuUi;
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (EmPausa)
@@ -23,28 +21,21 @@ public class PauseMenu : MonoBehaviour
             }
         }
     }
-
-    void Pause()
-    {
+    void Pause(){
         PauseMenuUi.SetActive(true);
         Time.timeScale = 0f;
         EmPausa = true;
     }
 
-    public void Resume()
-    {
+    public void Resume(){
         PauseMenuUi.SetActive(false);
         Time.timeScale = 1f;
         EmPausa = false;
     }
-
-    public void IniMenu()
-    {
+    public void IniMenu(){
         SceneManager.LoadScene("Menu");
     }
-
-    public void QuitApp()
-    {
+    public void QuitApp(){
         Application.Quit();
     }
 }
