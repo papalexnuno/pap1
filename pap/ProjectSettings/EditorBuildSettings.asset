@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Menu.unity
     guid: 0b82857cc50df8a45a5b7696265eb798
   - enabled: 1
+    path: Assets/Controls.unity
+    guid: c42db5e43378a094d8307f053d406c09
+  - enabled: 1
     path: Assets/paap.unity
     guid: 71075a1a49551e74aae2215d35f62214
   m_configObjects: {}
