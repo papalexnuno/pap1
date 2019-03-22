@@ -15756,7 +15756,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1504702407
 GameObject:
@@ -18286,7 +18286,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94bebfbbced59d44897a0e0db28d4bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waves: []
+  waves:
+  - name: The First Horde
+    enemy: {fileID: 6910902394865596356, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 1
+  - name: The Second Horde
+    enemy: {fileID: 6910902394865596356, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 2
+    rate: 2
+  - name: The Thrid Wave
+    enemy: {fileID: 6910902394865596356, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 3
+    rate: 2
   timeBetweenWaves: 5
   waveCountdown: 0
 --- !u!4 &1754175788
@@ -18297,11 +18309,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754175786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.807327, y: 2.1697974, z: 5.844644}
+  m_LocalPosition: {x: -20, y: 2, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1755815179
 GameObject:
