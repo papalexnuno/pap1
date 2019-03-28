@@ -5436,6 +5436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526119862}
   - component: {fileID: 526119861}
+  - component: {fileID: 526119863}
   m_Layer: 0
   m_Name: graund2.1 (6)_32 (1)
   m_TagString: Untagged
@@ -5505,6 +5506,24 @@ Transform:
   m_Father: {fileID: 970002084}
   m_RootOrder: 137
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &526119863
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526119860}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.6636658, y: -0.33633566}
+  - {x: -0.64499664, y: 11.502031}
 --- !u!1 &532596360
 GameObject:
   m_ObjectHideFlags: 0
@@ -5752,7 +5771,6 @@ GameObject:
   m_Component:
   - component: {fileID: 549893057}
   - component: {fileID: 549893056}
-  - component: {fileID: 549893058}
   m_Layer: 0
   m_Name: graund2.1 (1)_6 (1)
   m_TagString: Untagged
@@ -5822,24 +5840,6 @@ Transform:
   m_Father: {fileID: 970002084}
   m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &549893058
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549893055}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.95783234, y: 11.9101305}
-  - {x: 1.0543861, y: -5.0033426}
 --- !u!1 &553368682
 GameObject:
   m_ObjectHideFlags: 0
@@ -6207,7 +6207,6 @@ GameObject:
   m_Component:
   - component: {fileID: 587275838}
   - component: {fileID: 587275837}
-  - component: {fileID: 587275839}
   m_Layer: 0
   m_Name: graund2.1 (1)_7
   m_TagString: Untagged
@@ -6277,24 +6276,6 @@ Transform:
   m_Father: {fileID: 970002084}
   m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &587275839
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587275836}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.9456177, y: -5.0033426}
-  - {x: -0.9578285, y: 11.420675}
 --- !u!1 &593235438
 GameObject:
   m_ObjectHideFlags: 0
@@ -8679,6 +8660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843530597}
   - component: {fileID: 843530596}
+  - component: {fileID: 843530598}
   m_Layer: 0
   m_Name: graund2.1_47
   m_TagString: Untagged
@@ -8748,6 +8730,24 @@ Transform:
   m_Father: {fileID: 970002084}
   m_RootOrder: 179
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &843530598
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843530595}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.65379715, y: 10.967837}
+  - {x: 0.6694107, y: -0.38568544}
 --- !u!1 &844553166
 GameObject:
   m_ObjectHideFlags: 0
@@ -15190,7 +15190,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1, y: -1}
+  - {x: -6.779907, y: -2.8175817}
   - {x: 1, y: 0}
 --- !u!212 &1485818466
 SpriteRenderer:
@@ -17146,7 +17146,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -1, y: 0}
-  - {x: 1, y: -1}
+  - {x: 6.8655624, y: -2.691298}
 --- !u!212 &1631874756
 SpriteRenderer:
   m_ObjectHideFlags: 0
