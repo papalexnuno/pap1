@@ -287,8 +287,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -9.02606, y: -0.015258789}
-  - {x: 1, y: 0}
+  - {x: -9.199112, y: -0.3613658}
+  - {x: 0.71157837, y: -0.25958025}
 --- !u!1 &36367074
 GameObject:
   m_ObjectHideFlags: 0
@@ -12730,7 +12730,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.0069122, y: 0.9991927}
+  - {x: -1.151123, y: 0.7684548}
   - {x: 1.0287256, y: -0.010772467}
 --- !u!1 &1225523566
 GameObject:
@@ -15465,18 +15465,18 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.6091251, y: 1.5541422}
-      - {x: -1.000114, y: -0.004110396}
+    - - {x: 2.9552326, y: 1.3810887}
+      - {x: -1.028955, y: -0.032952845}
       - {x: -1, y: -1}
       - {x: 1, y: -1}
       - {x: 14.894599, y: -0.5136903}
       - {x: 9.404776, y: 1.5018833}
-      - {x: 9.038488, y: 1.6439548}
+      - {x: 8.923119, y: 1.6151125}
       - {x: 8.252263, y: 1.7025278}
-      - {x: 6.335991, y: 1.7239928}
-      - {x: 5.85402, y: 1.7094905}
-      - {x: 4.343399, y: 1.7121098}
-      - {x: 3.5067024, y: 1.7057133}
+      - {x: 8.0376835, y: 1.6951506}
+      - {x: 5.998232, y: 1.6806483}
+      - {x: 4.458769, y: 1.5967407}
+      - {x: 3.795125, y: 1.561502}
 --- !u!1 &1485818464
 GameObject:
   m_ObjectHideFlags: 0
@@ -15769,8 +15769,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.014145, y: -1.9988859}
-  - {x: 1, y: 0}
+  - {x: -4.1101475, y: -2.344993}
+  - {x: 1.0000019, y: -0.34610748}
 --- !u!1 &1492958293
 GameObject:
   m_ObjectHideFlags: 0
@@ -15867,8 +15867,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -7.0093603, y: 0}
-  - {x: 1, y: 0}
+  - {x: -6.9516745, y: -0.31726456}
+  - {x: 1.028842, y: -0.28842258}
 --- !u!1 &1498013046
 GameObject:
   m_ObjectHideFlags: 0
@@ -16412,8 +16412,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1, y: 1.0000002}
-  - {x: 1, y: 0}
+  - {x: -1.3172646, y: 0.74041986}
+  - {x: 2.2113743, y: -0.6345297}
 --- !u!1 &1527203689
 GameObject:
   m_ObjectHideFlags: 0
@@ -22502,7 +22502,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300004, guid: 4b324176506b9b64f975b99617031d8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
