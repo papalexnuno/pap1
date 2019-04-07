@@ -18609,15 +18609,83 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - name: The first one
-    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
-    count: 2
-    rate: 1
-  - name: Don't be afraid
+  - name: 1
     enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 3
+    rate: 1
+  - name: 2
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
     rate: 1.5
-  - name: OMG!!!
+  - name: 3
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 7
+    rate: 1.5
+  - name: 4
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 5
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 6
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 7
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 8
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 9
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 10
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 11
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 12
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 13
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 14
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 15
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 16
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 17
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 18
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 19
+    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    count: 5
+    rate: 2
+  - name: 20
     enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 5
     rate: 2

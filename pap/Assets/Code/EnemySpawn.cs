@@ -71,7 +71,6 @@ public class EnemySpawn : MonoBehaviour
         if (nextWave + 1 > waves.Length - 1)
         {
             nextWave = 0;
-            Debug.Log("End of the game");
         }
         else
         {
@@ -95,7 +94,6 @@ public class EnemySpawn : MonoBehaviour
 
     IEnumerator SpawnWave (Wave _wave)
     {
-        Debug.Log("Spawning wave: "+ _wave.name);
         state = SpawnState.SPAWNING;
 
         for (int i = 0; i < _wave.count; i++)
@@ -111,7 +109,6 @@ public class EnemySpawn : MonoBehaviour
 
     void SpawnEnemy (Transform _enemy)
     {
-        Debug.Log("Está mortoooooooooo");
         Transform _sp = spawnPoints[ Random.Range (0, spawnPoints.Length)];
         Instantiate(_enemy, _sp.position, _sp.rotation);
     }
