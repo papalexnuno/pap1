@@ -18838,7 +18838,7 @@ MonoBehaviour:
   - name: 12
     enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 35
-    rate: 2
+    rate: 3
   - name: 13
     enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 38
