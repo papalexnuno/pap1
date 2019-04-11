@@ -10,6 +10,7 @@ public class CameraFollow : MonoBehaviour {
     public float smoothTimeY;
 
     public GameObject player;
+    public GameObject healthBar;
 
     public bool bounds;     //Variavel para criar os limites da camera
 
@@ -21,6 +22,7 @@ public class CameraFollow : MonoBehaviour {
     void start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        healthBar = GameObject.FindGameObjectWithTag("GameHandler");
     }
 
     void FixedUpdate()

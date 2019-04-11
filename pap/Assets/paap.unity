@@ -3792,6 +3792,7 @@ MonoBehaviour:
   smoothTimeX: 0
   smoothTimeY: 0
   player: {fileID: 2111038076}
+  healthBar: {fileID: 942495871}
   bounds: 1
   minCameraPos: {x: -1000, y: 0.04, z: -10}
   maxCameraPos: {x: 1000, y: 1000, z: -10}
@@ -10005,7 +10006,7 @@ Transform:
   m_Children:
   - {fileID: 50396147}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970002083
 GameObject:
@@ -14176,7 +14177,7 @@ RectTransform:
   - {fileID: 1755815180}
   - {fileID: 1502373797}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
