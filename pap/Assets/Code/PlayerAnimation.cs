@@ -21,7 +21,7 @@ public class PlayerAnimation : MonoBehaviour{
             animator.SetBool("IsRunning", true);
         }
         
-        //se nao estiver a premir as teclas A ou D a animaçao para
+        //se nao estiver a premir as teclas A ou D a animaçao para andar para
         else
         {
             animator.SetBool("IsRunning", false);
@@ -31,10 +31,11 @@ public class PlayerAnimation : MonoBehaviour{
         if (Input.GetKeyDown(KeyCode.W)){
             animator.SetTrigger("IsJumping");
         }
-        //se premir a Tecla SPACE executa a animaçao de disparar
-        if (Input.GetKey(KeyCode.Space))
+
+        //se nao estiver a premir a tecla SPACE a animaçao para disparar ativa
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            animator.SetBool("IsRunning", true);
+            animator.SetTrigger("IsShooting");
         }
     }
 }

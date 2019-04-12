@@ -71,6 +71,6 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        GameObject.Destroy(gameObject);
     }
 }
