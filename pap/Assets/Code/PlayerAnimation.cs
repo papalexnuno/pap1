@@ -31,5 +31,10 @@ public class PlayerAnimation : MonoBehaviour{
         if (Input.GetKeyDown(KeyCode.W)){
             animator.SetTrigger("IsJumping");
         }
+        //se premir a Tecla SPACE executa a animaçao de disparar
+        if (Input.GetKey(KeyCode.Space))
+        {
+            animator.SetBool("IsRunning", true);
+        }
     }
 }

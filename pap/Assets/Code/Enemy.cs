@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [System.Serializable]
+    /*[System.Serializable]
     public class EnemyStats {
         public int maxHealth = 100;
         private int _curHealth;
@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     public EnemyStats stats = new EnemyStats();
 
     [Header("Optional: ")]
-    [SerializeField]
+    [SerializeField]*/
 
     public float velocidade;
     public float stoppingDistance;
@@ -49,14 +49,14 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D_ColInfo)
+   /* private void OnCollisionEnter2D(Collision2D_ColInfo)
     {
         Player _player = _colInfo.collider.GetComponent<Player>();
         if (player != null)
         {
             PlayerAnimation.DamagePlayer(stats.damage);
         }
-    }
+    }*/
 
     public void TakeDamage(int damage)
     {
