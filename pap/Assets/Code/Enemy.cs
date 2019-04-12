@@ -4,29 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    /*[System.Serializable]
-    public class EnemyStats {
-        public int maxHealth = 100;
-        private int _curHealth;
-        public int curHealth
-        {
-            get { return curHealth; }
-            set { _curHealth = Mathf.Clamp(value, 0, maxHealth; }
-        }
-
-        public int damage = 50;
-
-        public void Init()
-        {
-            curHealth = maxHealth;
-        }
-    }
-
-    public EnemyStats stats = new EnemyStats();
-
-    [Header("Optional: ")]
-    [SerializeField]*/
-
     public float velocidade;
     public float stoppingDistance;
     private Transform target;
@@ -48,15 +25,6 @@ public class Enemy : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, target.position, velocidade * Time.deltaTime);
         }
     }
-
-   /* private void OnCollisionEnter2D(Collision2D_ColInfo)
-    {
-        Player _player = _colInfo.collider.GetComponent<Player>();
-        if (player != null)
-        {
-            PlayerAnimation.DamagePlayer(stats.damage);
-        }
-    }*/
 
     public void TakeDamage(int damage)
     {
