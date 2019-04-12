@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3383762636885831164
+--- !u!1 &8034610487651003052
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2613038015613659075}
-  - component: {fileID: 8016849891280556469}
-  - component: {fileID: 4468218459919073266}
-  - component: {fileID: 7018851957108488330}
-  - component: {fileID: 385400335089940053}
-  - component: {fileID: 8575021847767549682}
+  - component: {fileID: 7293088806318579859}
+  - component: {fileID: 3329482955992684261}
+  - component: {fileID: 9184929399169939618}
+  - component: {fileID: 2311148363476697050}
+  - component: {fileID: 4912325534276088069}
+  - component: {fileID: 3924246522885521826}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Enemy
@@ -21,13 +21,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2613038015613659075
+--- !u!4 &7293088806318579859
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3383762636885831164}
+  m_GameObject: {fileID: 8034610487651003052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -21.864368, y: 2.031, z: 3.3945312}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
@@ -35,13 +35,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8016849891280556469
+--- !u!212 &3329482955992684261
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3383762636885831164}
+  m_GameObject: {fileID: 8034610487651003052}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,14 +83,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4468218459919073266
+--- !u!50 &9184929399169939618
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3383762636885831164}
+  m_GameObject: {fileID: 8034610487651003052}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -104,13 +104,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &7018851957108488330
+--- !u!58 &2311148363476697050
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3383762636885831164}
+  m_GameObject: {fileID: 8034610487651003052}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -120,13 +120,13 @@ CircleCollider2D:
   m_Offset: {x: -0.33770537, y: -0.6297747}
   serializedVersion: 2
   m_Radius: 0.50395554
---- !u!61 &385400335089940053
+--- !u!61 &4912325534276088069
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3383762636885831164}
+  m_GameObject: {fileID: 8034610487651003052}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -146,20 +146,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5314002, y: 1.1236614}
   m_EdgeRadius: 0
---- !u!114 &8575021847767549682
+--- !u!114 &3924246522885521826
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3383762636885831164}
+  m_GameObject: {fileID: 8034610487651003052}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20aba3fa13fc7f04fa176d8b0966be09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 3
-  stoppingDistance: 2
+  stoppingDistance: 1
   health: 100
   deathEffect: {fileID: 379481636200652571, guid: 5ac10fb0c1094d64d828337952f74654,
     type: 3}
+  attackRange: 1
+  damage: 50
+  attackDelay: 1

@@ -7,6 +7,10 @@ public class PlayerMovement : MonoBehaviour {
     //associa ao ficheiro CharacterController2D 
     public CharacterController2D controller;
 
+    public int health = 100;
+
+    public GameObject deathEffect;
+
     //valor da velocidade do player
     public float RunSpeed = 40f;
     float horizontalMove = 0f;
@@ -25,5 +29,21 @@ public class PlayerMovement : MonoBehaviour {
     void FixedUpdate (){
         controller.Move(horizontalMove * Time.fixedDeltaTime, run, jump);
         jump = false;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }
