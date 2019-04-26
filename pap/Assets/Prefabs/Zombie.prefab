@@ -158,11 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20aba3fa13fc7f04fa176d8b0966be09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 3
+  velocidade: 5
   stoppingDistance: 1
   health: 100
   deathEffect: {fileID: 379481636200652571, guid: 5ac10fb0c1094d64d828337952f74654,
     type: 3}
-  attackRange: 1
-  damage: 50
-  attackDelay: 1

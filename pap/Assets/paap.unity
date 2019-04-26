@@ -22508,7 +22508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6da9962ad725140bb2d2de318c25bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForcaSalto: 500
+  ForcaSalto: 850
   MoveSuave: 0.05
   m_AirControl: 1
   m_WhatIsGround:
