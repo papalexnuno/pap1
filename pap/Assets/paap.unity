@@ -18575,29 +18575,29 @@ MonoBehaviour:
     count: 43
     rate: 2
   - name: 16
-    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    enemy: {fileID: 7293088806318579859, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 45
     rate: 2
   - name: 17
-    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    enemy: {fileID: 7293088806318579859, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 48
     rate: 2
   - name: 18
-    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    enemy: {fileID: 7293088806318579859, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 51
     rate: 2
   - name: 19
-    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    enemy: {fileID: 7293088806318579859, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 55
     rate: 2
   - name: 20
-    enemy: {fileID: 2613038015613659075, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
+    enemy: {fileID: 7293088806318579859, guid: f3867ea5705b1804e9220424f67c8b44, type: 3}
     count: 60
     rate: 2
   spawnPoints:
   - {fileID: 538525642079108880}
   - {fileID: 2296308558689892837}
-  timeBetweenWaves: 10
+  timeBetweenWaves: 5
 --- !u!4 &1754175788
 Transform:
   m_ObjectHideFlags: 0
