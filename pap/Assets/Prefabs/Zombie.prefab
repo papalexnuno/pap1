@@ -162,8 +162,7 @@ MonoBehaviour:
   velocidade: 5
   stoppingDistance: 1
   health: 100
-  deathEffect: {fileID: 379481636200652571, guid: 5ac10fb0c1094d64d828337952f74654,
-    type: 3}
+  deathEffect: {fileID: 0}
 --- !u!95 &2582799552244229809
 Animator:
   serializedVersion: 3
@@ -174,7 +173,7 @@ Animator:
   m_GameObject: {fileID: 8034610487651003052}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9389dab01de101640b5dcf048d71bbae, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

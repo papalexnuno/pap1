@@ -31,6 +31,13 @@ public class PlayerMovement : MonoBehaviour {
         jump = false;
     }
 
+    //vida do player
+    [System.Serializable]
+    public class PlayerStats
+    {
+        public int Health = 100;
+    }
+
     public void TakeDamage(int damage)
     {
         health -= damage;
