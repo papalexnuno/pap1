@@ -162,7 +162,8 @@ MonoBehaviour:
   velocidade: 5
   stoppingDistance: 1
   health: 100
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 2933546163075319945, guid: 237c5ba2a3775714caaae48720f28315,
+    type: 3}
 --- !u!95 &2582799552244229809
 Animator:
   serializedVersion: 3
