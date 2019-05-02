@@ -10700,7 +10700,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1373494486}
+      - m_Target: {fileID: 0}
         m_MethodName: Resume
         m_Mode: 1
         m_Arguments:
@@ -13900,9 +13900,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1373494485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d95d74b199696d4690d188b90e4f6fe, type: 3}
+  m_Script: {fileID: 11500000, guid: f1481b083b8a08c4e830babb4a2a17ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PauseMenuUi: {fileID: 1755815179}
 --- !u!114 &1373494487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14237,7 +14238,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1373494486}
+      - m_Target: {fileID: 0}
         m_MethodName: IniMenu
         m_Mode: 1
         m_Arguments:
@@ -15838,7 +15839,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1373494486}
+      - m_Target: {fileID: 0}
         m_MethodName: QuitApp
         m_Mode: 1
         m_Arguments:
