@@ -22,10 +22,18 @@ public class EnemySpawn : MonoBehaviour
     
     public float timeBetweenWaves = 5f;
     private float waveCountdown;
+    public float WaveCountdown
+    {
+        get { return waveCountdown; }
+    }
 
     private float searchCountdown = 1f;
 
     private SpawnState state = SpawnState.COUNTING;
+    public SpawnState State
+    {
+        get { return state; }
+    }
 
     void Start()
     {
