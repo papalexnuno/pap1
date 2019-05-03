@@ -16,6 +16,8 @@ public class WaveUI : MonoBehaviour
     [SerializeField]
     Image waveCountImage;
 
+    private EnemySpawn.SpawnState previousState;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,13 +52,35 @@ public class WaveUI : MonoBehaviour
         switch (spawner.State)
         {
             case EnemySpawn.SpawnState.COUNTING:
-                UpdateCowntdownUI();
+                UpdateCountingUI();
                 break;
+
+            case EnemySpawn.SpawnState.SPAWNING:
+                UpdateSpawningUI();
+                break;
+        }
+
+        previousState = spawner.State;
+
+    }
+
+    void UpdateCountingUI()
+    {
+        if(previousState != EnemySpawn.SpawnState.COUNTING)
+        {
+            waveAnimator.SetBool("WaveCounter", false);
+            waveAnimator.SetBool("WaveCountdown", true);
+            Debug.Log("COUNTING");
         }
     }
 
-    void UpdateCowntdownUI()
+    void UpdateSpawningUI()
     {
-        Debug.Log("COUNITNG");
+        if (previousState != EnemySpawn.SpawnState.SPAWNING)
+        {
+            waveAnimator.SetBool("WaveCountdown", false);
+            waveAnimator.SetBool("WaveCounter", true);
+            Debug.Log("SPAWNING");
+        }
     }
 }
