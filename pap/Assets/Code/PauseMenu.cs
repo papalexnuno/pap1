@@ -45,10 +45,3 @@ public class PauseMenu : MonoBehaviour
     }
 }
 
-public class Controls_Back : MonoBehaviour
-{
-    public void BackButton()
-    {
-        SceneManager.LoadScene("Menu");
-    }
-}
