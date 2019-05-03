@@ -17,6 +17,10 @@ public class EnemySpawn : MonoBehaviour
 
     public Wave[] waves;
     private int nextWave = 0;
+    public int NextWave
+    {
+        get { return nextWave; }
+    }
 
     public Transform[] spawnPoints;
     

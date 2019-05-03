@@ -47,6 +47,16 @@ public class WaveUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        switch (spawner.State)
+        {
+            case EnemySpawn.SpawnState.COUNTING:
+                UpdateCowntdownUI();
+                break;
+        }
+    }
+
+    void UpdateCowntdownUI()
+    {
+        Debug.Log("COUNITNG");
     }
 }
