@@ -19,7 +19,7 @@ public class EnemySpawn : MonoBehaviour
     private int nextWave = 0;
     public int NextWave
     {
-        get { return nextWave; }
+        get { return nextWave + 1; }
     }
 
     public Transform[] spawnPoints;
@@ -28,7 +28,7 @@ public class EnemySpawn : MonoBehaviour
     private float waveCountdown;
     public float WaveCountdown
     {
-        get { return waveCountdown; }
+        get { return waveCountdown + 1; }
     }
 
     private float searchCountdown = 1f;

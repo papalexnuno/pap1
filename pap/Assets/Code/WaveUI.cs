@@ -11,10 +11,10 @@ public class WaveUI : MonoBehaviour
     Animator waveAnimator;
 
     [SerializeField]
-    Image waveCountdownImage;
+    Text waveCountdownText;
 
     [SerializeField]
-    Image waveCountImage;
+    Text waveCountText;
 
     private EnemySpawn.SpawnState previousState;
 
@@ -33,15 +33,15 @@ public class WaveUI : MonoBehaviour
             this.enabled = false;
         }
 
-        if (waveCountdownImage == null)
+        if (waveCountdownText == null)
         {
-            Debug.LogError("No waveCountdownImage referenced!");
+            Debug.LogError("No waveCountdownText referenced!");
             this.enabled = false;
         }
 
-        if (waveCountImage == null)
+        if (waveCountText == null)
         {
-            Debug.LogError("No waveCountImage referenced!");
+            Debug.LogError("No waveCountText referenced!");
             this.enabled = false;
         }
     }
@@ -68,10 +68,10 @@ public class WaveUI : MonoBehaviour
     {
         if(previousState != EnemySpawn.SpawnState.COUNTING)
         {
-            waveAnimator.SetBool("WaveCounter", false);
+            waveAnimator.SetBool("WaveIncoming", false);
             waveAnimator.SetBool("WaveCountdown", true);
-            Debug.Log("COUNTING");
         }
+        waveCountdownText.text = ((int)spawner.WaveCountdown).ToString();
     }
 
     void UpdateSpawningUI()
@@ -79,8 +79,9 @@ public class WaveUI : MonoBehaviour
         if (previousState != EnemySpawn.SpawnState.SPAWNING)
         {
             waveAnimator.SetBool("WaveCountdown", false);
-            waveAnimator.SetBool("WaveCounter", true);
-            Debug.Log("SPAWNING");
+            waveAnimator.SetBool("WaveIncoming", true);
+
+            waveCountText.text = spawner.NextWave.ToString();
         }
     }
 }
