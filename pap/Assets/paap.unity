@@ -6777,8 +6777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 257.65002, y: -49.05005}
-  m_SizeDelta: {x: 51.1, y: 81.9}
+  m_AnchoredPosition: {x: 296.7, y: -45}
+  m_SizeDelta: {x: 129.2, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &634066888
 CanvasGroup:
@@ -23035,7 +23035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 2111038083}
   health: 100
-  deathEffect: {fileID: 379481636200652571, guid: 5ac10fb0c1094d64d828337952f74654,
+  deathEffect: {fileID: 2933546163075319945, guid: 237c5ba2a3775714caaae48720f28315,
     type: 3}
   RunSpeed: 40
 --- !u!114 &2111038083

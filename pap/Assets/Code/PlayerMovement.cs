@@ -52,5 +52,6 @@ public class PlayerMovement : MonoBehaviour {
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
+
     }
 }
