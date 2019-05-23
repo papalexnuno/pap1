@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20aba3fa13fc7f04fa176d8b0966be09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   velocidade: 5
   stoppingDistance: 1
   health: 100

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public Transform player;
     private float Distance;
     public float velocidade;
     public float stoppingDistance;
@@ -22,18 +23,15 @@ public class Enemy : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
-
-
     void Update()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
         Distance = Vector2.Distance(target.position, transform.position);
         if (Distance < attackrange)
         {
             attack();
-        }
-
-
-        
+        }   
 
         //Faz o inimigo parar quando esta a determinada distancia do player
         if (Vector2.Distance(transform.position, target.position) > 0.8)
