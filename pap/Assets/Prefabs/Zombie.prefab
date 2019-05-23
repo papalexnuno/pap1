@@ -166,8 +166,8 @@ MonoBehaviour:
   deathEffect: {fileID: 2933546163075319945, guid: 237c5ba2a3775714caaae48720f28315,
     type: 3}
   damage: 50
-  attackdelay: 2
-  attackrange: 2
+  attackdelay: 1
+  attackrange: 1
 --- !u!95 &2582799552244229809
 Animator:
   serializedVersion: 3
