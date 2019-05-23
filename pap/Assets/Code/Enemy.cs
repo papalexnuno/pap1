@@ -25,8 +25,6 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-
         Distance = Vector2.Distance(target.position, transform.position);
         if (Distance < attackrange)
         {
