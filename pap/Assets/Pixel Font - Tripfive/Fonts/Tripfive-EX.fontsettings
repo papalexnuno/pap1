@@ -15,7 +15,7 @@ Font:
   m_AsciiStartOffset: 0
   m_Tracking: 1
   m_CharacterSpacing: 1
-  m_CharacterPadding: 1
+  m_CharacterPadding: 10
   m_ConvertCase: 0
   m_CharacterRects:
   - serializedVersion: 2

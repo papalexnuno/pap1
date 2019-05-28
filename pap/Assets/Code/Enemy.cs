@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     public int damage = 30;
     public int attackdelay = 2;
     public float attackrange = 0.9f;
+    public int scoreValue = 13;
 
     void Start()
     {
@@ -63,5 +64,6 @@ public class Enemy : MonoBehaviour
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         GameObject.Destroy(gameObject);
+        ScoreManager.score += scoreValue;
     }
 }
