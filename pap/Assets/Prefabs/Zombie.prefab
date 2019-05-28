@@ -169,6 +169,7 @@ MonoBehaviour:
   damage: 50
   attackdelay: 1
   attackrange: 1
+  scoreValue: 10
 --- !u!95 &2582799552244229809
 Animator:
   serializedVersion: 3

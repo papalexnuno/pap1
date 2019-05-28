@@ -6753,7 +6753,6 @@ GameObject:
   - component: {fileID: 619339110}
   - component: {fileID: 619339114}
   - component: {fileID: 619339113}
-  - component: {fileID: 619339112}
   - component: {fileID: 619339111}
   m_Layer: 5
   m_Name: ScoreText
@@ -6793,21 +6792,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b1c09e295c034148a24c179957d74f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &619339112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 619339109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.5889928, g: 0.3737985, b: 0.754717, a: 0.9098039}
-  m_EffectDistance: {x: 1.5, y: 1.5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &619339113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6831,7 +6815,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 231
@@ -9900,7 +9884,7 @@ GameObject:
   - component: {fileID: 926259180}
   - component: {fileID: 926259179}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
