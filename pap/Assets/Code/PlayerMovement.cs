@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour {
         
         health -= damage;
 
-        //HealthBar.fillAmount = health / 100f;
+        HealthBar.fillAmount = health / 100f;
 
 
         if (health <= 0)
