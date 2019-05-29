@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -11,6 +12,8 @@ public class PlayerMovement : MonoBehaviour {
     public int health = 100;
 
     public GameObject deathEffect;
+
+    public Image HealthBar;
 
     //valor da velocidade do player
     public float RunSpeed = 40f;
@@ -41,13 +44,18 @@ public class PlayerMovement : MonoBehaviour {
 
     public void TakeDamage(int damage)
     {
+        
         health -= damage;
+
+        //HealthBar.fillAmount = health / 100f;
+
 
         if (health <= 0)
         {
             Die();
             SceneManager.LoadScene(3);
         }
+        
     }
 
     void Die()
