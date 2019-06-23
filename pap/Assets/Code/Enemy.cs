@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public Transform player;
     private float Distance;
     public float velocidade;
+    public bool facingRight = true;
     public float stoppingDistance;
     private float AttackTime;
     private Transform target;
@@ -24,6 +25,14 @@ public class Enemy : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
+    void Flip()
+    {
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+        facingRight = !facingRight;
+    }
+
     void Update()
     {
         Distance = Vector2.Distance(target.position, transform.position);
@@ -37,7 +46,12 @@ public class Enemy : MonoBehaviour
         {
             //Move o inimigo da sua posiçao para a posiçao do player a uma determinada velocidade
             transform.position = Vector2.MoveTowards(transform.position, target.position, velocidade * Time.deltaTime);
+            if (target.position.x > transform.position.x && !facingRight) //if the target is to the right of enemy and the enemy is not facing right
+                Flip();
+            if (target.position.x < transform.position.x && facingRight)
+                Flip();
         }
+
     }
 
     private void attack()
