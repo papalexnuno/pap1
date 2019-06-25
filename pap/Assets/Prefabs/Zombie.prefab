@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3924246522885521826}
   - component: {fileID: 2582799552244229809}
   - component: {fileID: 2191523260926662792}
+  - component: {fileID: 3662401558611799305}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Enemy
@@ -162,6 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   velocidade: 5
+  facingRight: 1
   stoppingDistance: 1
   health: 100
   deathEffect: {fileID: 2933546163075319945, guid: 237c5ba2a3775714caaae48720f28315,
@@ -199,9 +201,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6b2920c66b4d5f84da666eceefac5986, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dc62547913b40cd4db090fbc55296243, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.025
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -285,3 +287,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &3662401558611799305
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034610487651003052}
+  m_Enabled: 1
