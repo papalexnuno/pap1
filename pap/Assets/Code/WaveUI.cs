@@ -18,7 +18,6 @@ public class WaveUI : MonoBehaviour
 
     private EnemySpawn.SpawnState previousState;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (spawner == null)
@@ -46,7 +45,6 @@ public class WaveUI : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         switch (spawner.State)

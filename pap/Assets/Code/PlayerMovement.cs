@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour {
 
-    //associa ao ficheiro CharacterController2D 
     public CharacterController2D controller;
 
     public int health = 100;
@@ -24,6 +23,7 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
         //cria o movimento na horizontal
         horizontalMove = Input.GetAxisRaw("Horizontal") * RunSpeed;
+
         //se a tecla associada ao salto for premida o player salta
         if (Input.GetButtonDown("Jump")){
             jump = true;
@@ -62,6 +62,5 @@ public class PlayerMovement : MonoBehaviour {
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
-
     }
 }
