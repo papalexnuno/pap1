@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
+    //funçao pra inverter a Axis X do inimigo para ficar sempre virado para a personagem
     void Flip()
     {
         Vector3 scale = transform.localScale;
@@ -35,6 +36,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        //distancia para o ataque
         Distance = Vector2.Distance(target.position, transform.position);
         if (Distance < attackrange)
         {
@@ -46,7 +48,8 @@ public class Enemy : MonoBehaviour
         {
             //Move o inimigo da sua posiçao para a posiçao do player a uma determinada velocidade
             transform.position = Vector2.MoveTowards(transform.position, target.position, velocidade * Time.deltaTime);
-            if (target.position.x > transform.position.x && !facingRight) //if the target is to the right of enemy and the enemy is not facing right
+            //se tiver á esquerda vai virar
+            if (target.position.x > transform.position.x && !facingRight) 
                 Flip();
             if (target.position.x < transform.position.x && facingRight)
                 Flip();
